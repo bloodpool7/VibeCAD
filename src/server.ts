@@ -348,7 +348,7 @@ async function startServer() {
                 } else {
                     outputText += "No documents found.\n";
                 }
-                return { content: [{ type: "text", text: outputText }] };
+                return { content: [{ type: "text", text: JSON.stringify(documents, null, 2) }] };
             } catch (error: any) {
                 console.error(`Error listing documents: ${error.message}`);
                 return { content: [{ type: "text", text: `Error listing documents: ${error.message}` }], isError: true };

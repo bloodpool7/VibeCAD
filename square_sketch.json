@@ -1,0 +1,55 @@
+{
+    "feature": {
+      "btType": "BTMSketch-151",
+      "message": {
+        "name": "Square Sketch",
+        "namespace": "",
+        "featureType": "newSketch",
+        "suppressed": false,
+        "parameters": [
+          {
+            "btType": "BTMParameterQueryList",
+            "message": {
+              "parameterId": "sketchPlane",
+              "queries": [
+                {
+                  "btType": "BTMIndividualQuery",
+                  "message": { "queryString": "Front", "persistentQuery": false }
+                }
+              ]
+            }
+          }
+        ],
+        "subFeatures": [
+          {
+            "btType": "BTMSketchRectangle-161",
+            "message": {
+              "name": "Rectangle 1",
+              "featureType": "rectangle",
+              "parameters": [
+                {
+                  "btType": "BTMParameterQuantity",
+                  "message": {
+                    "parameterId": "width",
+                    "expression": "50 mm",
+                    "value": 0.05
+                  }
+                },
+                {
+                  "btType": "BTMParameterQuantity",
+                  "message": {
+                    "parameterId": "height",
+                    "expression": "50 mm",
+                    "value": 0.05
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "serializationVersion": "1.2.11",
+    "libraryVersion": 2695,
+    "sourceMicroversion": "ed6768ba438a0b718d0ca781"
+  }
