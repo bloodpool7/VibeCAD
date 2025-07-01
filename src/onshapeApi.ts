@@ -14,9 +14,9 @@ const authHeader = 'Basic ' + Buffer.from(`${ONSHAPE_ACCESS_KEY}:${ONSHAPE_SECRE
 
 export async function onshapeApiRequest(method: string, path: string, body?: any, queryParams?: URLSearchParams): Promise<any> {
     const url = `${ONSHAPE_API_URL}${path}${queryParams ? `?${queryParams.toString()}` : ''}`;
-    console.log(`Making Onshape API request: ${method} ${url}`);
+    //console.log(`Making Onshape API request: ${method} ${url}`);
     if (body) {
-        console.log("Request Body:", JSON.stringify(body, null, 2));
+        //console.log("Request Body:", JSON.stringify(body, null, 2));
     }
 
 
