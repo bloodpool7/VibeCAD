@@ -1,21 +1,10 @@
-# onshape-mcp-server
+# VibeCAD
 
-MCP server for Onshape integration with the Model Context Protocol.
+1st place winner for the AI Agents Community MCP Hackathon. 
 
-## Installation
+## Setup
 
-```sh
-npm install onshape-mcp-server
+Run the following in the terminal:
+```bash
+./setup.sh
 ```
-
-## Usage
-
-```js
-import { /* ... */ } from 'onshape-mcp-server';
-
-// Your code here
-```
-
-## License
-
-MIT 
